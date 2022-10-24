@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/myPortfolio/static/css/main.af8ab645.css",
+    "main.js": "/myPortfolio/static/js/main.7c2bbb3a.js",
+    "static/media/ghibliBg.png": "/myPortfolio/static/media/ghibliBg.cf3ef3302c79b872d1d2.png",
+    "static/media/mobi.png": "/myPortfolio/static/media/mobi.d2f04ed2253923e9b4b0.png",
+    "static/media/vigorBg.png": "/myPortfolio/static/media/vigorBg.2b91e61d79d64d05cae2.png",
+    "static/media/reactProjectss.png": "/myPortfolio/static/media/reactProjectss.57dd63dd2302eb3b3eda.png",
+    "static/media/G-Reward.png": "/myPortfolio/static/media/G-Reward.c8f222c282011c0e2dae.png",
+    "static/media/argentum-sans.black.ttf": "/myPortfolio/static/media/argentum-sans.black.12f8981f481000473070.ttf",
+    "static/media/SassBg.png": "/myPortfolio/static/media/SassBg.6b90148b47974d417203.png",
+    "static/media/peepGreen.png": "/myPortfolio/static/media/peepGreen.8080848699de3da29e04.png",
+    "static/media/TailwindLogo.png": "/myPortfolio/static/media/TailwindLogo.9c2e5bcf4f97d73e438e.png",
+    "static/media/peep.png": "/myPortfolio/static/media/peep.a23b0ae47ed6c956eb9b.png",
+    "static/media/reactjslogo.png": "/myPortfolio/static/media/reactjslogo.1f660739f5232ac4a8a2.png",
+    "static/media/figmaLogo.png": "/myPortfolio/static/media/figmaLogo.e33b84f22d1b803057b9.png",
+    "static/media/sqllogo.png": "/myPortfolio/static/media/sqllogo.176ba55698c855707a9a.png",
+    "static/media/jquerylogo.png": "/myPortfolio/static/media/jquerylogo.ef690cbe159af1a8b761.png",
+    "static/media/PhpLogoo.png": "/myPortfolio/static/media/PhpLogoo.1ec8b4c18500132bf6ac.png",
+    "static/media/csslogo.png": "/myPortfolio/static/media/csslogo.27f9601c6914470a5eef.png",
+    "static/media/firebaselogo.png": "/myPortfolio/static/media/firebaselogo.c85ad4cbe138aba78ab9.png",
+    "static/media/myLogo.png": "/myPortfolio/static/media/myLogo.f04b93da1f3d49ae5d8c.png",
+    "static/media/PhotoshopLogo.png": "/myPortfolio/static/media/PhotoshopLogo.ff1e7ae1b8000eb270ea.png",
+    "static/media/rest-api-icon.png": "/myPortfolio/static/media/rest-api-icon.2cd2b4a122e5c06112f5.png",
+    "static/media/bootstraplogo.svg": "/myPortfolio/static/media/bootstraplogo.042e546738551a2f4206e3248e9ca3c3.svg",
+    "index.html": "/myPortfolio/index.html",
+    "main.af8ab645.css.map": "/myPortfolio/static/css/main.af8ab645.css.map",
+    "main.7c2bbb3a.js.map": "/myPortfolio/static/js/main.7c2bbb3a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af8ab645.css",
+    "static/js/main.7c2bbb3a.js"
+  ]
+}
