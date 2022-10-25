@@ -1,5 +1,6 @@
 import { useState,useEffect,useRef} from 'react'
 import emailjs from '@emailjs/browser';
+import Resume from './assets/Resume.pdf'
 import Logo from './assets/myLogo.png'
 import LogoGreen from './assets/myLogoGreen.png'
 import Peep from './assets/peep.png'
@@ -7,7 +8,7 @@ import PeepGreen from './assets/peepGreen.png'
 import {RiMoonFill,RiSunFill,RiMenu3Line,RiCloseLine} from 'react-icons/ri'
 import {BsGithub,BsFacebook, BsInstagram, BsLinkedin, BsArrowDown} from 'react-icons/bs'
 import {AiFillCaretRight,} from 'react-icons/ai'
-import {FaEye,FaCode} from 'react-icons/fa'
+import {FaEye,FaCode,FaCodepen} from 'react-icons/fa'
 import BootstrapLogo from './assets/bootstraplogo.svg'
 import CssLogo from './assets/csslogo.png'
 import TailWindLogo from './assets/TailwindLogo.png'
@@ -348,7 +349,7 @@ const handleModal6 = () =>{
                   <a data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-duration="500" data-aos-delay="200" href='#exp' className='hidden md:block   text-[#E2DCC8] dark:text-[#0F3D3E]'>Experience</a>
                   <a href='#works' data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-duration="500" data-aos-delay="300" className='hidden md:block   text-[#E2DCC8] dark:text-[#0F3D3E]'>Works</a>
                   <a href='#contact' data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-duration="500" data-aos-delay="400" className='hidden md:block  text-[#E2DCC8] dark:text-[#0F3D3E]'>Contact</a>
-                  <li className=''data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-duration="500" data-aos-delay="500" ><button className='my-2  argentum text-base bg-transparent border-2 px-4 py-1.5 rounded-md border-[#E2DCC8] dark:border-[#0F3D3E] transition-all hover:bg-[#0F3D3E] dark:hover:text-[#E2DCC8] text-[#E2DCC8] dark:text-[#0F3D3E]'>RESUME</button></li>
+                  <a href={Resume} target = '_blank' className=''data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-duration="500" data-aos-delay="500" ><button className='my-2  argentum text-base bg-transparent border-2 px-4 py-1.5 rounded-md border-[#E2DCC8] dark:border-[#0F3D3E] transition-all hover:bg-[#0F3D3E] dark:hover:text-[#E2DCC8] text-[#E2DCC8] dark:text-[#0F3D3E]'>RESUME</button></a>
                   <li className='' data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-duration="500" data-aos-delay="600"><button onClick={handleDarkMode} className='bg-[#0F3D3E] text-[#E2DCC8] p-3 rounded-lg'>
                     {darkmode ? (<RiSunFill/>) :  (<RiMoonFill/>) }</button></li>
                     <li className='block md:hidden z-[110]' data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-duration="500" data-aos-delay="600"><button onClick={handleShow} className='bg-[#0F3D3E] text-[#E2DCC8] p-3 rounded-lg '>
@@ -378,10 +379,10 @@ const handleModal6 = () =>{
         {/* SOCIALS */}
         <div className="social_wrapper fixed bottom-96 left-12 hidden xl:block">
           <ul className='font-medium text-[#E2DCC8] dark:text-[#0F3D3E] text-2xl flex flex-col gap-8'>
-            <li data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="500" data-aos-delay="100" className='opacity-80 hover:opacity-100 cursor-pointer hover:translate-y-[-2px] transition-all'><BsGithub/></li>
-            <li data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="500" data-aos-delay="200" className='opacity-80 hover:opacity-100 cursor-pointer hover:translate-y-[-2px] transition-all'><BsFacebook/></li>
-            <li data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="500" data-aos-delay="300" className='opacity-80 hover:opacity-100 cursor-pointer hover:translate-y-[-2px] transition-all'><BsInstagram/></li>
-            <li data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="500" data-aos-delay="400" className='opacity-80 hover:opacity-100 cursor-pointer hover:translate-y-[-2px] transition-all'><BsLinkedin/></li>
+            <a href='https://github.com/aldrinramores' target="_blank" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="500" data-aos-delay="100" className='opacity-80 hover:opacity-100 cursor-pointer hover:translate-y-[-2px] transition-all'><BsGithub/></a>
+            <a href='https://www.instagram.com/aaramoress/' target='_blank' data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="500" data-aos-delay="300" className='opacity-80 hover:opacity-100 cursor-pointer hover:translate-y-[-2px] transition-all'><BsInstagram/></a>
+            <a href='https://codepen.io/aldrinnunal' target='_blank' data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="500" data-aos-delay="300" className='opacity-80 hover:opacity-100 cursor-pointer hover:translate-y-[-2px] transition-all'><FaCodepen/></a>
+            <a href='https://www.linkedin.com/in/aldrin-ramores-556798202/' target='_blank' data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="500" data-aos-delay="400" className='opacity-80 hover:opacity-100 cursor-pointer hover:translate-y-[-2px] transition-all'><BsLinkedin/></a>
           </ul>
         </div>
         {/* SCROLL DOWN */}
@@ -404,7 +405,7 @@ const handleModal6 = () =>{
               <p className= 'z-[20] text-2xl md:text-3xl text-[#E2DCC8] dark:text-[#0F3D3E] argentum horizontal_line'>About Me</p>
               </div>
               
-              <p className='text-sm md:text-base py-2 text-[#E2DCC8] dark:text-[#0F3D3E] text-justify word-spacing opacity-70 dark:opacity-100 font-medium'>Hello! I am Aldrin, 22 years old recenty finished Bachelor of Science Major in Information and Technology from Polytechnic University of the Philippines - San Pedro Campus. I gain interest in web development specially on front-end development way back 2020 when i discover interactive websites like : <a className='font-bold hover:underline'target="_blank" href="https://splinterlands.com/">Splinterlands</a>, <a className='font-bold hover:underline 'target="_blank"  href="http://pierrehermenicolasbuffe.com/en">Pierre Herme X Nicholas Buffe</a> and <a className='font-bold hover:underline' target="_blank"  href="https://zoomquilt.org/">Zoom Quilt</a>. Outside of everything i use to play chess online, guitar, basketball and make pixel arts.</p>
+              <p className='text-sm md:text-base py-2 text-[#E2DCC8] dark:text-[#0F3D3E] text-justify word-spacing opacity-70 dark:opacity-100 font-medium'>Hello! I am Aldrin, 22 years old recenty finished Bachelor of Science Major in Information and Technology from Polytechnic University of the Philippines - San Pedro Campus. I gain interest in web development specially on front-end development way back 2020 when i discovered interactive websites like : <a className='font-bold hover:underline'target="_blank" href="https://splinterlands.com/">Splinterlands</a>, <a className='font-bold hover:underline 'target="_blank"  href="http://pierrehermenicolasbuffe.com/en">Pierre Herme X Nicholas Buffe</a> and <a className='font-bold hover:underline' target="_blank"  href="https://zoomquilt.org/">Zoom Quilt</a>. Outside of everything i use to play chess online, guitar, basketball and make pixel arts.</p>
           </div>
       </div>
 
@@ -584,19 +585,21 @@ const handleModal6 = () =>{
                {/* SOCIALS */}
             <div className="social_wrapper w-full block xl:hidden mt-36">
               <ul className='font-medium text-[#E2DCC8] mx-auto dark:text-[#0F3D3E] text-lg  flex mb-5 justify-center gap-8'>
-                <li className='opacity-80 hover:opacity-100 cursor-pointer hover:translate-y-[-2px] transition-all'><BsGithub/></li>
-                <li className='opacity-80 hover:opacity-100 cursor-pointer hover:translate-y-[-2px] transition-all'><BsFacebook/></li>
-                <li className='opacity-80 hover:opacity-100 cursor-pointer hover:translate-y-[-2px] transition-all'><BsInstagram/></li>
-                <li className='opacity-80 hover:opacity-100 cursor-pointer hover:translate-y-[-2px] transition-all'><BsLinkedin/></li>
+                <a href='https://github.com/aldrinramores' target='_blank' className='opacity-80 hover:opacity-100 cursor-pointer hover:translate-y-[-2px] transition-all'><BsGithub/></a>
+                <a href='https://codepen.io/aldrinnunal' target='_blank' className='opacity-80 hover:opacity-100 cursor-pointer hover:translate-y-[-2px] transition-all'><FaCodepen/></a>
+                <a href='https://www.instagram.com/aaramoress/' target='_blank' className='opacity-80 hover:opacity-100 cursor-pointer hover:translate-y-[-2px] transition-all'><BsInstagram/></a>
+                <a href='https://www.linkedin.com/in/aldrin-ramores-556798202/' target='_blank' className='opacity-80 hover:opacity-100 cursor-pointer hover:translate-y-[-2px] transition-all'><BsLinkedin/></a>
               </ul>
             </div> 
 
+              <p className='text-[#E2DCC8] dark:text-[#0F3D3E] font-medium text-center text-sm  mb-2 opacity-70 dark:opacity-100'>aldrinramores43@gmail.com</p>
            <p className='text-[#E2DCC8] dark:text-[#0F3D3E] font-medium text-center  mb-8 opacity-70 dark:opacity-100'>© 2022 Aldrin Ramores. All Rights Reserved.</p>
         </div>
 
 
 
       </div>
+      
     </>
     
   );

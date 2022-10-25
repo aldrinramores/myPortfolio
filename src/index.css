@@ -135,6 +135,9 @@ html,body {
   width: 100%;
   transition: all 300ms ease-in-out !important;
 }
+.nav_links a:last-child:hover::after {
+  width: 0%;
+}
 /* MOBILE LINKS */
 .about_text {
 position: relative;
