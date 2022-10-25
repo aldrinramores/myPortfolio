@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myPortfolio/static/css/main.af8ab645.css",
-    "main.js": "/myPortfolio/static/js/main.7c2bbb3a.js",
+    "main.js": "/myPortfolio/static/js/main.112803a4.js",
     "static/media/ghibliBg.png": "/myPortfolio/static/media/ghibliBg.cf3ef3302c79b872d1d2.png",
     "static/media/mobi.png": "/myPortfolio/static/media/mobi.d2f04ed2253923e9b4b0.png",
     "static/media/vigorBg.png": "/myPortfolio/static/media/vigorBg.2b91e61d79d64d05cae2.png",
@@ -9,6 +9,7 @@
     "static/media/G-Reward.png": "/myPortfolio/static/media/G-Reward.c8f222c282011c0e2dae.png",
     "static/media/argentum-sans.black.ttf": "/myPortfolio/static/media/argentum-sans.black.12f8981f481000473070.ttf",
     "static/media/SassBg.png": "/myPortfolio/static/media/SassBg.6b90148b47974d417203.png",
+    "static/media/Resume.pdf": "/myPortfolio/static/media/Resume.a41b0b7d9be9bfc843fa.pdf",
     "static/media/peepGreen.png": "/myPortfolio/static/media/peepGreen.8080848699de3da29e04.png",
     "static/media/TailwindLogo.png": "/myPortfolio/static/media/TailwindLogo.9c2e5bcf4f97d73e438e.png",
     "static/media/peep.png": "/myPortfolio/static/media/peep.a23b0ae47ed6c956eb9b.png",
@@ -25,10 +26,10 @@
     "static/media/bootstraplogo.svg": "/myPortfolio/static/media/bootstraplogo.042e546738551a2f4206e3248e9ca3c3.svg",
     "index.html": "/myPortfolio/index.html",
     "main.af8ab645.css.map": "/myPortfolio/static/css/main.af8ab645.css.map",
-    "main.7c2bbb3a.js.map": "/myPortfolio/static/js/main.7c2bbb3a.js.map"
+    "main.112803a4.js.map": "/myPortfolio/static/js/main.112803a4.js.map"
   },
   "entrypoints": [
     "static/css/main.af8ab645.css",
-    "static/js/main.7c2bbb3a.js"
+    "static/js/main.112803a4.js"
   ]
 }
