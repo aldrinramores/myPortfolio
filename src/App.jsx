@@ -365,7 +365,7 @@ const handleModal6 = () =>{
             <div className="left_container text-[#E2DCC8] dark:text-[#0F3D3E]">
               <p className='text-xl md:text-2xl font-bold text-center md:text-left mb-2 md:mb-5' data-aos="fade-down" data-aos-easing="easing-bicubic">Hi! I'm </p>
               <p className='text-4xl md:text-6xl argentum text-center md:text-left' data-aos="fade-down" data-aos-easing="easing-bicubic" data-aos-delay="100"> ALDRIN RAMORES</p>
-              <p className='text-xl md:text-4xl opacity-90 my-2 argentum text-center md:text-left' data-aos="fade-down" data-aos-easing="easing-bicubic" data-aos-delay="200">&lt; Front-End Dev / &gt;</p>
+              <p className='text-xl md:text-4xl opacity-90 my-2 argentum text-center md:text-left' data-aos="fade-down" data-aos-easing="easing-bicubic" data-aos-delay="200">&lt; Web Developer / &gt;</p>
               <p className='my-1 md:my-5 max-w-lg opacity-70 dark:opacity-100 text-sm md:text-lg lg:text-base text-justify  word-spacing md:text-left font-medium' data-aos="fade-down" data-aos-easing="easing-bicubic" data-aos-delay="300">I love building websites with stunning UI. I have a passion on developing website with <span className=' font-bold italic'>Simplicity</span> and upstanding <span className=' font-bold italic'>User Experience</span>.</p>
     
             </div>
