@@ -24,6 +24,9 @@ import SqlLogo from './assets/sqllogo.png'
 import PhotoShopLogo from './assets/PhotoshopLogo.png'
 import IllustratorLogo from './assets/illustratorLogo.png'
 import FigmaLogo from './assets/figmaLogo.png'
+import NodeJsLogo from './assets/nodes.png'
+import ExpressLogo from './assets/ex.png'
+import MongoLogo from './assets/mongo.png'
 import { motion, useScroll } from "framer-motion";
 import GhibliProj from  './assets/ghibliBg.png';
 import MovieProj from  './assets/mobi.png';
@@ -31,6 +34,7 @@ import VigorProj from './assets/vigorBg.png'
 import ReactProj from './assets/reactProjectss.png'
 import SassProj from './assets/SassBg.png'
 import GrewardProj from './assets/G-Reward.png'
+import Crud from './assets/Crud.png'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -123,6 +127,7 @@ const closeModal = () => {
   const modal4 = document.querySelector(".modal4")
   const modal5 = document.querySelector(".modal5")
   const modal6 = document.querySelector(".modal6")
+  const modal7 = document.querySelector(".modal7")
   const overlay = document.querySelector(".overlay_modal")
 
   modal1.classList.add("hidden")
@@ -143,6 +148,9 @@ const closeModal = () => {
 
   modal6.classList.add("hidden")
   modal6.classList.remove("block")
+
+  modal7.classList.add("hidden")
+  modal7.classList.remove("block")
 
   overlay.classList.add("hidden")
   overlay.classList.remove("block")
@@ -192,6 +200,15 @@ const handleModal5 = () =>{
 
 const handleModal6 = () =>{
   const modal1 = document.querySelector(".modal6")
+  const overlay = document.querySelector(".overlay_modal")
+  modal1.classList.add("block")
+  modal1.classList.remove("hidden")
+  overlay.classList.add("block")
+  overlay.classList.remove("hidden")
+}
+
+const handleModal7 = () =>{
+  const modal1 = document.querySelector(".modal7")
   const overlay = document.querySelector(".overlay_modal")
   modal1.classList.add("block")
   modal1.classList.remove("hidden")
@@ -330,6 +347,20 @@ const handleModal6 = () =>{
        </div>
     </div>
 
+        {/* MODAL7 */}
+        <div className="modal_wrapper modal7 fixed w-[95vw] md:w-[70vw] lg:w-[50vw] z-[200] hidden top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+       <div className="modal_box rounded-lg ">
+          <img src={Crud} className="w-full" />
+            <div className="flex items-center justify-between px-2 py-2 bg-[#0F3D3E]">
+              <p className='text-[#E2DCC8] argentum text-xl md:text-2xl'>React JS Restful API CRUD</p>
+                <div className="flex items-center gap-4">
+                  <a className=' p-2 text-[#E2DCC8] text-2xl' target="_blank" href="https://github.com/aldrinramores/FrontEnd_CRUD"><FaCode/></a>
+                  <a className=' p-2 text-[#E2DCC8] text-2xl' target="_blank" href="https://aldrinramores.github.io/FrontEnd_CRUD/"><FaEye/></a>
+                </div>
+            </div>
+       </div>
+    </div>
+
    
 
       <motion.div
@@ -419,42 +450,54 @@ const handleModal6 = () =>{
         
             <div className="stacks grid  grid-cols-2 sm:grid-cols-3 md:grid-cols-4 items-center gap-5 mt-5">
               <div className="mx-auto  p-2 rounded-lg drop-shadow-xl transition-all bg-[#F1F1F1] opacity-90 hover:opacity-100 w-full h-full"  >
-                <img className='h-28 mx-auto' data-aos = "fade-up" data-aos-easing="linear"  data-aos-delay="100"  data-aos-once="true" src={HtmlLogo} />
+                <img className='h-28 mx-auto'  data-aos-easing="linear"  data-aos-delay="100"  data-aos-once="true" src={HtmlLogo} />
               </div>
               <div className="mx-auto  p-2 rounded-lg drop-shadow-xl transition-all bg-[#F1F1F1] opacity-90 hover:opacity-100 w-full h-full" >
-                <img className='h-28 mx-auto' data-aos = "fade-up" data-aos-easing="linear" data-aos-delay="200"  data-aos-once="true" src={CssLogo} />
+                <img className='h-28 mx-auto'  data-aos-easing="linear" data-aos-delay="200"  data-aos-once="true" src={CssLogo} />
               </div>
               <div className="mx-auto  p-2 rounded-lg drop-shadow-xl transition-all bg-[#F1F1F1] opacity-90 hover:opacity-100 w-full h-full">
-                <img className='h-28 mx-auto' data-aos = "fade-up" data-aos-easing="linear" data-aos-delay="300"  data-aos-once="true" src={BootstrapLogo} />
+                <img className='h-28 mx-auto'  data-aos-easing="linear" data-aos-delay="300"  data-aos-once="true" src={BootstrapLogo} />
               </div>
               <div className="mx-auto  p-2 rounded-lg drop-shadow-xl transition-all bg-[#F1F1F1] opacity-90 hover:opacity-100 w-full h-full" >
-                <img className='h-28 mx-auto' data-aos = "fade-up" data-aos-easing="linear" data-aos-delay="400"  data-aos-once="true" src={TailWindLogo} />
+                <img className='h-28 mx-auto'  data-aos-easing="linear" data-aos-delay="400"  data-aos-once="true" src={TailWindLogo} />
               </div>
 
               <div className="mx-auto  p-2 rounded-lg drop-shadow-xl transition-all bg-[#F1F1F1] opacity-90 hover:opacity-100 w-full h-full" >
-                <img className='h-28 mx-auto'data-aos = "fade-up" data-aos-easing="linear" data-aos-delay="500"  data-aos-once="true" src={GitLogo} />
+                <img className='h-28 mx-auto' data-aos-easing="linear" data-aos-delay="500"  data-aos-once="true" src={GitLogo} />
               </div>
               
               <div className="mx-auto  p-2 rounded-lg drop-shadow-xl transition-all bg-[#F1F1F1] opacity-90 hover:opacity-100 w-full h-full" >
-                <img className='h-28 mx-auto' data-aos = "fade-up" data-aos-easing="linear"  data-aos-delay="600"  data-aos-once="true" src={JscriptLogo} />
+                <img className='h-28 mx-auto'  data-aos-easing="linear"  data-aos-delay="600"  data-aos-once="true" src={JscriptLogo} />
               </div>
               <div className="mx-auto  p-2 rounded-lg drop-shadow-xl transition-all bg-[#F1F1F1] opacity-90 hover:opacity-100 w-full h-full" >
-                <img className='h-28 mx-auto' data-aos = "fade-up" data-aos-easing="linear"  data-aos-delay="700"  data-aos-once="true" src={JqueryLogo} />
+                <img className='h-28 mx-auto'  data-aos-easing="linear"  data-aos-delay="700"  data-aos-once="true" src={JqueryLogo} />
               </div>
               <div className="mx-auto  p-2 rounded-lg drop-shadow-xl transition-all bg-[#F1F1F1] opacity-90 hover:opacity-100 w-full h-full" >
-                <img className='h-28 mx-auto' data-aos = "fade-up" data-aos-easing="linear"  data-aos-delay="800"  data-aos-once="true" src={ReactJsLogo} />
+                <img className='h-28 mx-auto'  data-aos-easing="linear"  data-aos-delay="800"  data-aos-once="true" src={ReactJsLogo} />
               </div>
               <div className="mx-auto  p-2 rounded-lg drop-shadow-xl transition-all bg-[#F1F1F1] opacity-90 hover:opacity-100 w-full h-full" >
-                <img className='h-28 mx-auto'data-aos = "fade-up" data-aos-easing="linear"  data-aos-delay="900"  data-aos-once="true" src={RestApiLogo} />
+                <img className='h-28 mx-auto' data-aos-easing="linear"  data-aos-delay="900"  data-aos-once="true" src={RestApiLogo} />
               </div>
               <div className="mx-auto  p-2 rounded-lg drop-shadow-xl transition-all bg-[#F1F1F1] opacity-90 hover:opacity-100 w-full h-full">
-                <img className='h-28 mx-auto'data-aos = "fade-up" data-aos-easing="linear"  data-aos-delay="1000" data-aos-once="true"  src={SqlLogo} />
+                <img className='h-28 mx-auto' data-aos-easing="linear"  data-aos-delay="1000" data-aos-once="true"  src={SqlLogo} />
               </div>
               <div className="mx-auto  p-2 rounded-lg drop-shadow-xl transition-all bg-[#F1F1F1] opacity-90 hover:opacity-100 w-full h-full">
-                <img className='h-28 mx-auto' data-aos = "fade-up" data-aos-easing="linear"  data-aos-delay="1100" data-aos-once="true"  src={PhpLogo} />
+                <img className='h-28 mx-auto'  data-aos-easing="linear"  data-aos-delay="1100" data-aos-once="true"  src={PhpLogo} />
               </div>
               <div className="mx-auto  p-2 rounded-lg drop-shadow-xl transition-all bg-[#F1F1F1] opacity-90 hover:opacity-100 w-full h-full" >
-                <img className='h-28 mx-auto' data-aos = "fade-up" data-aos-easing="linear"  data-aos-delay="1200" data-aos-once="true"  src={FireBaseLogo} />
+                <img className='h-28 mx-auto'  data-aos-easing="linear"  data-aos-delay="1200" data-aos-once="true"  src={FireBaseLogo} />
+              </div>
+
+              <div className="mx-auto  p-2 rounded-lg drop-shadow-xl transition-all bg-[#F1F1F1] opacity-90 hover:opacity-100 w-full h-full" >
+                <img className='h-28 mx-auto'  data-aos-easing="linear"  data-aos-delay="1200" data-aos-once="true"  src={NodeJsLogo} />
+              </div>
+
+              <div className="mx-auto  p-2 rounded-lg drop-shadow-xl transition-all bg-[#F1F1F1] opacity-90 hover:opacity-100 w-full h-full" >
+                <img className='h-28 mx-auto'  data-aos-easing="linear"  data-aos-delay="1200" data-aos-once="true"  src={ExpressLogo} />
+              </div>
+
+              <div className="mx-auto  p-2 rounded-lg drop-shadow-xl transition-all bg-[#F1F1F1] opacity-90 hover:opacity-100 w-full h-full" >
+                <img className='h-28 mx-auto'  data-aos-easing="linear"  data-aos-delay="1200" data-aos-once="true"  src={MongoLogo} />
               </div>
             </div>
 
@@ -462,13 +505,13 @@ const handleModal6 = () =>{
             <p className='onscroll text-2xl mt-5 md:text-3xl text-[#E2DCC8] dark:text-[#0F3D3E] argentum horizontal_line z-[20]'>Other Skills</p>
             <div className="stacks grid  grid-cols-2 sm:grid-cols-3 md:grid-cols-4 items-center gap-5 mt-5">
               <div className="mx-auto  p-2 rounded-lg drop-shadow-xl transition-all bg-[#F1F1F1] opacity-90 hover:opacity-100 w-full h-full" >
-                <img className='h-28 mx-auto' data-aos = "fade-up" data-aos-easing="linear" data-aos-once="true"  data-aos-delay="100"  src={PhotoShopLogo} />
+                <img className='h-28 mx-auto'  data-aos-easing="linear" data-aos-once="true"  data-aos-delay="100"  src={PhotoShopLogo} />
               </div>
               <div className="mx-auto  p-2 rounded-lg drop-shadow-xl transition-all bg-[#F1F1F1] opacity-90 hover:opacity-100 w-full h-full" >
-                <img className='h-28 mx-auto' data-aos = "fade-up" data-aos-easing="linear" data-aos-once="true"  data-aos-delay="200"  src={IllustratorLogo} />
+                <img className='h-28 mx-auto'  data-aos-easing="linear" data-aos-once="true"  data-aos-delay="200"  src={IllustratorLogo} />
               </div>
               <div className="mx-auto  p-2 rounded-lg drop-shadow-xl transition-all bg-[#F1F1F1] opacity-90 hover:opacity-100 w-full h-full" >
-                <img className='h-28 mx-auto' data-aos = "fade-up" data-aos-easing="linear" data-aos-once="true"  data-aos-delay="300"  src={FigmaLogo} />
+                <img className='h-28 mx-auto'  data-aos-easing="linear" data-aos-once="true"  data-aos-delay="300"  src={FigmaLogo} />
               </div>
             </div>
           </div>
@@ -542,6 +585,13 @@ const handleModal6 = () =>{
               <div className="card bg-black drop-shadow-xl  relative" data-aos = "fade-down" data-aos-easing="linear" data-aos-delay="600">
                 <img src={SassProj} className="h-full w-full block" />
                 <div onClick={handleModal6} className="absolute w-[100%] h-[100%] bg-[#0F3D3E]/70 transition-all cursor-pointer top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 hover:opacity-100  pt-24 hover:pt-0">
+                  <button className='text-[#E2DCC8] argentum w-full h-full text-xl'>View Project</button>
+                </div>
+              </div>
+
+              <div className="card bg-black drop-shadow-xl  relative" data-aos = "fade-down" data-aos-easing="linear" data-aos-delay="600">
+                <img src={Crud} className="h-full w-full block" />
+                <div onClick={handleModal7} className="absolute w-[100%] h-[100%] bg-[#0F3D3E]/70 transition-all cursor-pointer top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 hover:opacity-100  pt-24 hover:pt-0">
                   <button className='text-[#E2DCC8] argentum w-full h-full text-xl'>View Project</button>
                 </div>
               </div>
